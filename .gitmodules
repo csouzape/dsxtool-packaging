@@ -1,0 +1,3 @@
+[submodule "dsxtool"]
+	path = dsxtool
+	url = https://github.com/csouzape/dsxtool.git
