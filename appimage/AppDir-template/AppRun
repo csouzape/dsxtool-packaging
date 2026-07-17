@@ -1,0 +1,11 @@
+#!/bin/bash
+# AppRun - entry point for dsxtool AppImage
+set -e
+
+HERE="$(dirname "$(readlink -f "${0}")")"
+
+# Prioriza binários embutidos (ex: fzf estático) sobre os do sistema
+export PATH="${HERE}/usr/bin:${PATH}"
+
+# Ponto de entrada real do dsxtool
+exec "${HERE}/usr/bin/dsxtool/install.sh" "$@"

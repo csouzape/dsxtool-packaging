@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=dsxtool
+Comment=Modular post-install automation tool for Arch, Debian, and Fedora
+Exec=dsxtool
+Icon=dsxtool
+Type=Application
+Categories=System;
+Terminal=true

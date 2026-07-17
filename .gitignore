@@ -1,0 +1,8 @@
+# Build artifacts
+appimage/build/
+appimage/dist/
+appimage/tools/
+*.AppImage
+
+# Misc
+.DS_Store
